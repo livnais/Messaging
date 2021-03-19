@@ -9,15 +9,15 @@ export default class DaoSQL extends Dao {
     super();
   }
 
-  getAll() : string {
+  getAll(): string {
     return 'DAO SQL get all';
   }
 
-  update(id:number, obj: object) : string {
+  update(id: number, obj: object): string {
     return `DAO SQL update ${id}`;
   }
 
-  delete(id:number) : string {
+  delete(id: number): string {
     return `DAO SQL delete ${id}`;
   }
 }
