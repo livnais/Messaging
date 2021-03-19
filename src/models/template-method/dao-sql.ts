@@ -5,19 +5,19 @@ import Dao from './dao';
  * partial implementation because there are no interface or network
  */
 export default class DaoSQL extends Dao {
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
-  getAll(): string {
-    return 'DAO SQL get all';
-  }
+    getAll(): string {
+        return 'DAO SQL get all';
+    }
 
-  update(id: number, obj: object): string {
-    return `DAO SQL update ${id}`;
-  }
+    update(id: number, obj: object): string {
+        return `DAO SQL update ${id}`;
+    }
 
-  delete(id: number): string {
-    return `DAO SQL delete ${id}`;
-  }
+    delete(id: number): string {
+        return `DAO SQL delete ${id}`;
+    }
 }

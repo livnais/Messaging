@@ -5,23 +5,23 @@ import Dao from './dao';
  * partial implementation because there are no interface or network
  */
 export default class DaoXML extends Dao {
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
-  getAll(): string {
-    return 'DAO XML get all';
-  }
+    getAll(): string {
+        return 'DAO XML get all';
+    }
 
-  get(id: number): string {
-    return `DAO XML get ${id}`;
-  }
+    get(id: number): string {
+        return `DAO XML get ${id}`;
+    }
 
-  update(id: number, obj: object): string {
-    return `DAO XML update ${id}`;
-  }
+    update(id: number, obj: object): string {
+        return `DAO XML update ${id}`;
+    }
 
-  delete(id: number): string {
-    return `DAO XML delete ${id}`;
-  }
+    delete(id: number): string {
+        return `DAO XML delete ${id}`;
+    }
 }
