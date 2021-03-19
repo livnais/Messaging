@@ -1,11 +1,11 @@
 class Users {
-  public sendMessages() {
-    console.log('Send message');
+  sendMessages(): string {
+    return 'Send message';
   }
-  public getMessageUp() {
-    console.log('Get message up');
+  getMessageUp() {
+    return 'Get message up';
   }
-  public getMessageDown() {
-    console.log('Get message down');
+  getMessageDown() {
+    return 'Get message down';
   }
 }
