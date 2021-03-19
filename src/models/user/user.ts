@@ -1,5 +1,6 @@
 import Etat from '../etat/etat';
 import EtatPresent from '../etat/etat-present';
+import ProxyChatMessage from '../proxy/proxy-chat-message';
 
 export default class User {
     /**
@@ -7,8 +8,10 @@ export default class User {
      */
     constructor() {
         this.etat = new EtatPresent();
+        this.proxyChatMessage = new ProxyChatMessage();
     }
 
+    public proxyChatMessage: ProxyChatMessage;
     private etat: Etat;
 
     public getEtat(): Etat {
