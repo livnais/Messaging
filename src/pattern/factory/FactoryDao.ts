@@ -1,4 +1,6 @@
 import DaoJSON from "../TemplateMethod/DaoJSON";
+import DaoSQL from "../TemplateMethod/DaoSQL";
+import DaoXML from "../TemplateMethod/DaoXML";
 abstract class FactoryDao {
   constructor() {}
 
