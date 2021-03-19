@@ -9,19 +9,19 @@ export default class DaoJSON extends Dao {
     super();
   }
 
-  getAll() : string {
+  getAll(): string {
     return 'DAO Json get all';
   }
 
-  get(id: number) : string {
+  get(id: number): string {
     return `DAO Json get ${id}`;
   }
 
-  update(id:number, obj: object) : string {
+  update(id: number, obj: object): string {
     return `DAO Json update ${id}`;
   }
 
-  delete(id:number) : string {
+  delete(id: number): string {
     return `DAO Json delete ${id}`;
   }
 }

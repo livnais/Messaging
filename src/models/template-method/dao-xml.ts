@@ -9,19 +9,19 @@ export default class DaoXML extends Dao {
     super();
   }
 
-  getAll() : string {
+  getAll(): string {
     return 'DAO XML get all';
   }
 
-  get(id: number) : string {
+  get(id: number): string {
     return `DAO XML get ${id}`;
   }
 
-  update(id:number, obj: object) : string {
+  update(id: number, obj: object): string {
     return `DAO XML update ${id}`;
   }
 
-  delete(id:number) : string {
+  delete(id: number): string {
     return `DAO XML delete ${id}`;
   }
 }
